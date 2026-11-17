@@ -73,7 +73,6 @@ function ProfileCard({ profile, onSwipe, disabled, exitDirection }) {
 
   return (
     <article
-      ref={cardRef}
       className="profile-card"
       style={style}
       onPointerDown={handlePointerDown}
